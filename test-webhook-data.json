@@ -1,0 +1,12 @@
+{
+  "eventType": "task.moved",
+  "task": {
+    "title": "Test Chocolate Muffin"
+  },
+  "fromSection": {
+    "name": "To Bake"
+  },
+  "toSection": {
+    "name": "Already Baked"
+  }
+}

@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          zoho:
+            client-id: 1000.CJA4AGCBXP8RANX805LTNV8K6ND0SY
+            client-secret: 1aa8582546f92f70901e3156b1243a16ebbe7a52e3
+            authorization-grant-type: authorization_code
+            redirect-uri: http://localhost:8080/login/oauth2/code/zoho
+            scope: zohopulse.feedList.READ,zohopulse.feedList.CREATE,zohopulse.feedList.UPDATE,aaaserver.profile.READ
+            client-name: Zoho Connect
+        provider:
+          zoho:
+            authorization-uri: https://accounts.zoho.com/oauth/v2/auth
+            token-uri: https://accounts.zoho.com/oauth/v2/token
+            user-info-uri: https://accounts.zoho.com/oauth/user/info
+            user-name-attribute: ZUID
+
+zoho:
+  api:
+    base-url: https://connect.zoho.com/api/v1
+    board-id: 705113000000002046
+
+logging:
+  level:
+    com.bdtransformation: DEBUG
+    org.springframework.web: DEBUG
