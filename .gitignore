@@ -1,4 +1,4 @@
-# Visual Studio / VS Code (This was causing your Git errors)
+# Visual Studio / VS Code 
 .vs/
 .vscode/
 *.user
@@ -42,7 +42,7 @@ frontend/yarn-error.log*
 frontend/.pnpm-debug.log*
 frontend/coverage/
 
-# Package manager lock files (optional - some teams prefer to track these)
+# Package manager lock files (optional)
 frontend/package-lock.json
 frontend/yarn.lock
 
@@ -96,10 +96,6 @@ temp/
 # Git related
 *.orig
 *.rej
-
-# Claude/AI assistant files (like the settings file you saw)
-settings.local.json
-.claude/
 
 # Test coverage
 coverage/

@@ -29,7 +29,7 @@ function AddMuffinModal({ lists, onSave, onClose }) {
     'Chocolate Chip Muffin',
     'Banana Nut Muffin',
     'Lemon Poppy Seed Muffin',
-    'Cranberry Orange Muffin',
+    'Cranberry White Chocolate Muffin',
     'Double Chocolate Muffin',
     'Strawberry Muffin',
     'Apple Cinnamon Muffin'
